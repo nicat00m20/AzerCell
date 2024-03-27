@@ -23,5 +23,13 @@ public class WebController {
 		model.addAttribute("products",productList);
 		return "home";
 	}
+
+	@GetMapping("/index")
+	public String index(Model model) {
+		List<Product> productList= productService.getProducts();
+		model.addAttribute("name", "Nijat");
+		model.addAttribute("products",productList);
+		return "index1";
+	}
 }
 
