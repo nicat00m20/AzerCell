@@ -153,6 +153,12 @@ public class AdminController {
        return new RedirectView("http://localhost:8080/adminpanel/products");
     }
     
+    @PostMapping("/adminpanel/delete-category/{id}")
+    public RedirectView deleteCategory(@PathVariable Long id) {
+       categoryService.deleteById(id);
+       return new RedirectView("http://localhost:8080/adminpanel/categories");
+    }
+
     private String getFileExtension(String name) {
         int lastIndexOf = name.lastIndexOf(".");
         if (lastIndexOf == -1) {
