@@ -7,7 +7,7 @@ import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "UniMall Project", version = "1.0", description = "UniMall Project"))
+@OpenAPIDefinition(info = @Info(title = "AzerCell Project", version = "1.0", description = "AzerCell Project"))
 public class UnimallApplication {
 
 
