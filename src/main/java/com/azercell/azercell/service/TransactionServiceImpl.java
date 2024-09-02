@@ -1,12 +1,12 @@
-package com.unimall.unimall.service;
+package com.azercell.azercell.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.unimall.unimall.entity.Transaction;
-import com.unimall.unimall.repository.TransactionRepository;
+import com.azercell.azercell.entity.Transaction;
+import com.azercell.azercell.repository.TransactionRepository;
 
 @Service
 public class TransactionServiceImpl implements TransactionService{

@@ -1,4 +1,4 @@
-package com.unimall.unimall.controller;
+package com.azercell.azercell.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import com.unimall.unimall.model.CustomerInputModel;
-import com.unimall.unimall.service.CustomerService;
+import com.azercell.azercell.model.CustomerInputModel;
+import com.azercell.azercell.service.CustomerService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

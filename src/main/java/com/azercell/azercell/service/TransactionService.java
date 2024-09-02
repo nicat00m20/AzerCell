@@ -1,8 +1,8 @@
-package com.unimall.unimall.service;
+package com.azercell.azercell.service;
 
 import java.util.List;
 
-import com.unimall.unimall.entity.Transaction;
+import com.azercell.azercell.entity.Transaction;
 
 public interface TransactionService {
     List<Transaction> getAll();

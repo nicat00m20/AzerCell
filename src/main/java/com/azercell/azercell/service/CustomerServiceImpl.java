@@ -1,13 +1,13 @@
-package com.unimall.unimall.service;
+package com.azercell.azercell.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.unimall.unimall.entity.Customer;
-import com.unimall.unimall.model.CustomerInputModel;
-import com.unimall.unimall.repository.CustomerRepository;
+import com.azercell.azercell.entity.Customer;
+import com.azercell.azercell.model.CustomerInputModel;
+import com.azercell.azercell.repository.CustomerRepository;
 @Service
 public class CustomerServiceImpl implements CustomerService{
 

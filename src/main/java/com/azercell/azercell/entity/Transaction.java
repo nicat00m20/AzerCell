@@ -1,4 +1,4 @@
-package com.unimall.unimall.entity;
+package com.azercell.azercell.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

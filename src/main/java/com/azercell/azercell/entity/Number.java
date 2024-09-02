@@ -1,6 +1,6 @@
-package com.unimall.unimall.entity;
+package com.azercell.azercell.entity;
 
-import com.unimall.unimall.model.NumberInputModel;
+import com.azercell.azercell.model.NumberInputModel;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

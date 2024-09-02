@@ -1,9 +1,9 @@
-package com.unimall.unimall.service;
+package com.azercell.azercell.service;
 
 import java.util.List;
-import com.unimall.unimall.entity.Number;
+import com.azercell.azercell.entity.Number;
 
-import com.unimall.unimall.model.NumberInputModel;
+import com.azercell.azercell.model.NumberInputModel;
 
 public interface NumberService {
     

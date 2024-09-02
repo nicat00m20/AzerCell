@@ -1,13 +1,13 @@
-package com.unimall.unimall.service;
+package com.azercell.azercell.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.unimall.unimall.entity.Number;
-import com.unimall.unimall.model.NumberInputModel;
-import com.unimall.unimall.repository.NumberRepository;
+import com.azercell.azercell.entity.Number;
+import com.azercell.azercell.model.NumberInputModel;
+import com.azercell.azercell.repository.NumberRepository;
 
 
 

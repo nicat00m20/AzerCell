@@ -1,9 +1,9 @@
-package com.unimall.unimall.service;
+package com.azercell.azercell.service;
 
 import java.util.List;
 
-import com.unimall.unimall.entity.Customer;
-import com.unimall.unimall.model.CustomerInputModel;
+import com.azercell.azercell.entity.Customer;
+import com.azercell.azercell.model.CustomerInputModel;
 
 public interface CustomerService {
 
