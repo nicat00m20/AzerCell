@@ -23,7 +23,6 @@ public class WebController {
     @GetMapping("/home")
 	public String home(Model model) {
 		List<Product> productList= productService.getProducts();
-		model.addAttribute("name", "Nijat");
 		model.addAttribute("products",productList);
 		return "home";
 	}
@@ -31,10 +30,8 @@ public class WebController {
 	@GetMapping("/index")
 	public String index(Model model) {
 		List<Product> productList= productService.getProducts();
-		model.addAttribute("name", "Nijat");
 		model.addAttribute("products",productList);
 		List<Category> categoryList= categoryService.getAll();
-		model.addAttribute("name", "Nijat");
 		model.addAttribute("categories",categoryList);
 		return "index1";
 	}

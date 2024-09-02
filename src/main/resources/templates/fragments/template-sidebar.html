@@ -32,9 +32,12 @@
               <li><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> T-Shirts</a></li>
           </ul>
       </li>
-      <li th:each="category : ${categories}" class="list-group-item clearfix">
+     
+     
+      <li th:each="category : ${categories}" th:if="${category.parentId} == '0'" class="list-group-item clearfix dropdown">
           <a href="http://localhost:8080/adminpanel/products"><i class="fa fa-angle-right"></i> <span th:text="${category.name}"></span></a>
-      </li>
-      <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Custom Link</a></li>
+        
+        </li>
+      
   </ul>
 </div>
